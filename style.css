@@ -22,23 +22,56 @@ body {
 }
 
 .container {
+  margin: auto;
   border-radius: 15px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   background-color: #fff;
   background: rgba(255, 255, 255, 0.2);
   height: 30rem;
-  max-width: 50rem;
+  width: 50rem;
 }
 
-.box {
-  border: thin solid #fff;
-}
-
+/* Left container child*/
 .container-left {
   float: left;
+  padding: 50px;
+  border-right: thin solid #fff;
 }
 
+.nickname {
+  width: 80%;
+  padding: 12px 20px;
+  margin-top: 6rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+}
+
+.or {
+  margin-bottom: 1rem;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 3em;
+}
+
+.container-left .button {
+  background-color: #f54ec9;
+  margin-top: 5rem;
+}
+
+/* Right container child */
 .container-right {
   float: right;
+}
+
+.container-right .button {
+  background-color: #ffbd59;
 }
