@@ -4,6 +4,7 @@
 }
 
 body {
+  font-family: "Spartan", sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,7 +65,7 @@ body {
 
 .container-left .button {
   background-color: #f54ec9;
-  margin-top: 5rem;
+  margin-top: 8rem;
 }
 
 /* Right container child */
