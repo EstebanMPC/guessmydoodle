@@ -1,11 +1,22 @@
 {
   "name": "guessmydoodle",
   "version": "1.0.0",
-  "description": "",
   "main": "script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EstebanMPC/guessmydoodle.git"
+  },
+  "bugs": {
+    "url": "https://github.com/EstebanMPC/guessmydoodle/issues"
+  },
+  "homepage": "https://github.com/EstebanMPC/guessmydoodle#readme",
+  "description": "",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
 }

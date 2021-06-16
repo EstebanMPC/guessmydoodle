@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url(".//images/background.png");
+  background-color: #cccc;
+  color: #fff;
+}
+
+.title {
+  padding-top: 2rem 0;
+}
+
+.subtitle {
+  padding: 1rem 0;
+}
+
+.container {
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.2);
+  height: 30rem;
+  max-width: 50rem;
+}
+
+.box {
+  border: thin solid #fff;
+}
+
+.container-left {
+  float: left;
+}
+
+.container-right {
+  float: right;
+}
